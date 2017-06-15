@@ -1,0 +1,104 @@
+/**
+ * Positioning Layout Activity
+ **/
+body {
+	width: 960px;
+	font-size: 18px;
+	font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
+	background-color: #777777;
+	margin: 0 auto;
+}
+
+p {
+	padding: 10px;
+	margin: 5px 10px 5px 10px;
+	background-color: #ebebeb;
+	color: #777777;
+}
+
+h1, h2, h3, h4, h5 {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 5px 10px 5px 10px;
+	background-color: #ebebeb;
+	color: #777777;
+}
+
+header {
+	background-color: #ebebeb;
+	padding: 20px;
+	color: #777777;
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+
+nav {
+	background-color: #ebebeb;
+	padding: 20px;
+	color: #777777;
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+
+footer {
+	background-color: #ebebeb;
+	padding: 20px;
+	color: #777777;
+	text-align: center;
+
+}
+
+aside {
+	float:right;
+	width: 38%;
+	background-color: #ebebeb;
+	padding: 20px;
+	margin-top: 10px;
+	color: #777777;
+	text-align: center;
+}
+
+section {
+	float:left;
+	width: 495px;
+	background-color: #ebebeb;
+	padding: 20px;
+	margin-top: 10px;
+	color: #777777;
+	text-align: center;
+}
+
+article {
+	background-color: #777777;
+	padding: 10px;
+	margin-top: 10px;
+	color: white;
+	text-align: center;
+}
+
+.container {
+	min-height: 271px;
+}
+
+.addpaddsection {
+	padding-bottom: 10px;
+	display: block;
+}
+
+.addpaddarticle {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	display: block;
+}
+
+.addpaddaside {
+	padding-bottom: 178px;
+	display: block;
+}
+
+.clear::after {
+	content: “”;
+	display: block;
+	clear: both;
+}
